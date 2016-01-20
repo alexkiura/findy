@@ -4,7 +4,7 @@ import urllib.parse
 import urllib.request
 import sys
 
-"""A  Python client calling Knowledge Graph Search API."""
+'''A CLI client querying Google's Knowledge Graph API for people '''
 
 def search_person(name):
 	'''Searches for a person named name using the Google Knowledge Graph API 
